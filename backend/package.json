@@ -1,0 +1,24 @@
+{
+  "name": "multi-vendor-order-inventory-management-system",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/Killerturi/Multi-Vendor-Order-Inventory-Management-System#readme",
+  "bugs": {
+    "url": "https://github.com/Killerturi/Multi-Vendor-Order-Inventory-Management-System/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Killerturi/Multi-Vendor-Order-Inventory-Management-System.git"
+  },
+  "license": "ISC",
+  "author": "turi",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bullmq": "^5.67.3",
+    "ioredis": "^5.9.2"
+  }
+}
