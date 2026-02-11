@@ -1,5 +1,12 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 import app from "./app.js";
 import "./config/redis.js"; // just importing initializes connection
+import connectDB from "./config/db.js";
+
+
+connectDB();
 
 const PORT = process.env.PORT || 5000;
 
